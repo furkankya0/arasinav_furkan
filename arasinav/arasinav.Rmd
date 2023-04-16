@@ -1,0 +1,59 @@
+---
+title: "Türkiye'de Tarım Üretici Fiyat Endeksi"
+author: 
+  - Mehmet Furkan Kaya[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 21080268, [Github Repo](https://github.com/furkankya0/arasinav_furkan)
+
+
+
+# Giriş
+Gelişmekte olan bir ülke olan Türkiye'de şartlar hiçbir zaman istenilen gibi olmamıştır.Bunun bir sürü sebebi var ama şu son 10 yılda oluşan tarımsal ürünlerdeki fiyat artışını önlemek bi hayli zor hale geldi artık.
+   Sürekli devam eden bir fiyat artışı ve bundan bezmiş olan üreticiler ile tüketiciler.Hala düzenlenmeyen politikalar,yapılmayan sübvansiyonlar ile birlikte kartopu etkisiyle artan fiyatlar karşı konulamaz hale gelmiştir.@bayramouglu2015turkiye atıfıma bakabilirsiniz.
+
+
+
+
+## Çalışmanın Amacı
+Türkiye son döneminde özellikle son 10 yılda dünya ile paralel artan gıda fiyatları sonrasında dünya fiyatları azalırken ülkemizde hala artmaktadır.Bunun sebebi ise ülkede izlenenen tarıma yönelik yanlış politikalardır.Bu politikalar sonucunda enlasyon ortaya çıkmıştır.Böyle bir dönemde böyle bi yazı yazmak istedim.
+
+## Literatür 
+Tüm dünya genelinde 2010 yılına kadar paralel bir şekilde devam eden fiyat yükselmesi durumu vardı.2010'dan sonra dünya genelinde fiyatlar azalırken Türkiye'de yanlış politikalar sonucu ve tarımsal girdilerde oluşan yüksek fiyatlanma ile bu durum tam tersi bir şekilde artmaya devam etti.
+   Türkiye gelişmekte olan ülkelerden biri olarak toplumsal refah ile aynı zamanda küresel büyümeyi gerçekleştirebilirse mükkemmel bir yükseliş sağlayacaktır ama dünya genelinde artan fiyatlanmalar,küresel krizler ve savaşlar bu gidişatı tersine çevirmiştir.Bu da TCMB'nın belirttiği gibi enflasyona yol açmıştır.
+
+
+**_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
